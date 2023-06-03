@@ -15,7 +15,7 @@ from imgaug import augmenters as iaa
 import random
 
 
-#### STEP 1 - INITIALIZE DATA
+#### STEP 1 - INITIALIZE DATA. 
 def getName(filePath):
     myImagePathL = filePath.split('/')[-2:]
     myImagePath = os.path.join(myImagePathL[0],myImagePathL[1])
