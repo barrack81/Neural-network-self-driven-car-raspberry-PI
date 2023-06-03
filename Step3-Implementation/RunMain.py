@@ -6,7 +6,7 @@ import WebcamModule as wM
 import MotorModule as mM
 
 #######################################
-steeringSen = 0.70  # Steering Sensitivity
+steeringSen = 0.70  # Steering Sensitivity. 
 maxThrottle = 0.22  # Forward Speed %
 motor = mM.Motor(2, 3, 4, 17, 22, 27) # Pin Numbers
 model = load_model('/home/pi/Desktop/My Files/RpiRobot/model_V1.h5')
