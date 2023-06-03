@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from utlis import *
 
 
-#### STEP 1 - INITIALIZE DATA
+#### STEP 1 - INITIALIZE DATA. 
 path = 'DataCollected'
 data = importDataInfo(path)
 print(data.head())
