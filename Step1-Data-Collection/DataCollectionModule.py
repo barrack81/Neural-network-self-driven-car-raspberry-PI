@@ -6,7 +6,7 @@
 in the log file.
 - Call the saveData function to start.
 - Call the saveLog function to end.
-- If runs independent, will save ten images as a demo.
+- If runs independent, will save ten images as a deemo.
 """
 
 import pandas as pd
